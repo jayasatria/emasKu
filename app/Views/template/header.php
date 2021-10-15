@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- custom CSS file -->
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="<?= site_url('public/assets/css/style.css'); ?>">
 </head>
 
 <body>
@@ -29,8 +29,8 @@
     <!-- Start Header -->
 
     <header id="header">
-        <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
-            <p class="font-rale font-size-12 text-black-50">Jordan Calderon 430-985 Eleifend St. Duluth Washington 92611(427) 930-5255</p>
+        <div class="strip d-flex justify-content-end px-4 py-1 bg-light">
+
             <div class="font-rale font-size-14">
                 <a href="#" class="px-3 border-start border-end text-dark" style="text-decoration: none;">Login</a>
                 <a href="#" class="px-3 border-end text-dark" style="text-decoration: none;">Wishlist (0)</a>
@@ -38,9 +38,9 @@
         </div>
 
         <!-- Primary Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
+        <nav class="navbar navbar-expand-lg navbar-dark color-second-bg" style="background: #00A5C4;">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Mobile Shopee</a>
+                <a class="navbar-brand" href="#">EmasKu</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
