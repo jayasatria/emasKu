@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- custom CSS file -->
-    <link rel="stylesheet" href="<?= site_url('public/assets/css/style.css'); ?>">
+    <link rel="stylesheet" href="<?= $url . '/assets/css/style.css'; ?>">
 </head>
 
 <body>
@@ -36,9 +36,9 @@
                 <a href="#" class="px-3 border-end text-dark" style="text-decoration: none;">Wishlist (0)</a>
             </div>
         </div>
-
+        <!-- style="background: #00A5C4;" -->
         <!-- Primary Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-dark color-second-bg" style="background: #00A5C4;">
+        <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">EmasKu</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
