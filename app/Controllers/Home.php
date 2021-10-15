@@ -6,6 +6,9 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('index/index.php');
+        $data['title'] = "EmasKu";
+        echo view('template/header', $data);
+        echo view('index/index');
+        echo view('template/footer');
     }
 }
