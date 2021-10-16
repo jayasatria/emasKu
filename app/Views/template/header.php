@@ -47,22 +47,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav m-auto font-rubik">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">On Sale</a>
+                            <a class="nav-link" aria-current="page" href="#">Emas Mini</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Category</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Product <i class="fas fa-chevron-down"></i></a>
+                            <a class="nav-link" href="#">Emas Antam</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Category <i class="fas fa-chevron-down"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Coming Soon</a>
+                            <a class="nav-link" href="#">Update Harga</a>
                         </li>
                     </ul>
                     <form action="#" class="font-size-14 font-rale">
