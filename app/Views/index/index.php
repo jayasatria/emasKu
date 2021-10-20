@@ -8,13 +8,13 @@
     <section id="banner-area">
         <div class="owl-carousel owl-theme">
             <div class="item">
-                <img src="<?= base_url('/img/ban_3.jpg'); ?>" alt="Banner1">
+                <img src="<?= base_url('/upload/ban_3.jpg'); ?>" alt="Banner1">
             </div>
             <div class="item">
-                <img src="<?= base_url('/img/ban_2.jpg'); ?>" alt="Banner2">
+                <img src="<?= base_url('/upload/ban_2.jpg'); ?>" alt="Banner2">
             </div>
             <div class="item">
-                <img src="<?= base_url('/img/ban1.jpg'); ?>" alt="Banner3">
+                <img src="<?= base_url('/upload/ban1.jpg'); ?>" alt="Banner3">
             </div>
         </div>
     </section>
