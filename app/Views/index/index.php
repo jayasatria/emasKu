@@ -3,27 +3,18 @@
 <?= $this->section('content'); ?>
 
 <!-- Start Main Site -->
-<main id="main-site">
-    <!-- carousel -->
-    <section id="banner-area">
-        <div class="owl-carousel owl-theme">
-            <div class="item">
-                <img src="<?= base_url('/upload/ban_3.jpg'); ?>" alt="Banner1">
-            </div>
-            <div class="item">
-                <img src="<?= base_url('/upload/ban_2.jpg'); ?>" alt="Banner2">
-            </div>
-            <div class="item">
-                <img src="<?= base_url('/upload/ban1.jpg'); ?>" alt="Banner3">
-            </div>
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="<?= base_url() . '/emas.jpeg'; ?>" class="d-block w-100" alt="...">
         </div>
-    </section>
-    <!-- carousel -->
-
-
-
-
-
-</main>
+        <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+        </div>
+    </div>
+</div>
 <!-- Start Main Site -->
 <?= $this->endSection(); ?>
